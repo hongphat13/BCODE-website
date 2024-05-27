@@ -48,7 +48,7 @@ $(function () {
   const images = [
     'url("pic/pexels-binyaminmellish-1396122.jpg")',
     'url("pic/pexels-binyaminmellish-1396132.jpg")',
-    'url("pic/pexels-binyaminmellish-106399 (1).jpg")',
+    'url("pic/pexels-binyaminmellish-106399.jpg")',
     'url("pic/pexels-expect-best-79873-323780.jpg")',
   ];
 
