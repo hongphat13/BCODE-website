@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="pic\logo.png" type="BCODE" />
+    <title>BCODE</title>
+
+    <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript" src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div id="main-container">
+      <div id="header-container">
+        <header>
+          <div id="nav-container" class="container flex">
+            <a id="logo" href="">
+              <img src="pic\logo.png" alt="Logo" id="logo-img" />
+            </a>
+            <nav>
+              <button id="nav-toggle">
+                <span class="strip"></span>
+                <span class="strip"></span>
+                <span class="strip"></span>
+              </button>
+              <ul id="nav-menu">
+                <li><a href="#header-container">TRANG CHỦ</a></li>
+                <li><a href="#services">KHU TRỌ</a></li>
+                <li><a href="#about-company">GIỚI THIỆU</a></li>
+                <li><a href="#testimonials">ĐÁNH GIÁ</a></li>
+                <li><a href="#contacts">LIÊN HỆ</a></li>
+                <li id="close-flyout"><span class="fas fa-times"></span></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <section id="top-content">
+          <div class="top-content-fade"></div>
+          <div class="top-content-text">
+            <h1>Khu trọ cao cấp BCODE</h1>
+            <h2 class="hero__heading">MORE THAN A PLACE TO STAY</h2>
+          </div>
+        </section>
+      </div>
+      <section id="services">
+        <div class="container">
+          <h2>THÔNG TIN PHÒNG VÀ CÁC DỊCH VỤ TIỆN ÍCH</h2>
+          <div class="flex centered">
+            <div class="service" data-target="phong">
+              <span class="fas fa-home service-icon"></span>
+              <h4>PHÒNG</h4>
+              <p>Gồm 2 loại phòng dành cho sinh viên và gia đình</p>
+            </div>
+            <div class="service" data-target="dichvu">
+              <span class="fas fa-chart-line service-icon"></span>
+              <h4>DỊCH VỤ</h4>
+              <p>
+                Các dịch vụ hỗ trợ giúp khách thuê có những trải nghiệm tốt nhất
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modal structure -->
+      <div id="phong-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="phong" class="modal-detail">
+            <h3>Phòng trọ dành cho gia đình</h3>
+            <img src="pic\Make-Their-Home-From-Home.jpg" alt="Room Image" />
+            <p>Loại: Phòng hộ gia đình</p>
+            <p>Diện tích: 50 - 150 m^2</p>
+            <p>Tiền thuê: 4 triệu - 8 triệu / tháng</p>
+          </div>
+          <div id="phong" class="modal-detail">
+            <h3>Phòng trọ dành cho sinh viên</h3>
+            <img src="pic\HLCResidential034-680x340.jpg" alt="Room Image" />
+            <p>Loại: Phòng trọ sinh viên</p>
+            <p>Diện tích: 10 - 30 m^2</p>
+            <p>Tiền thuê: ̀3 triệu - 4 triệu / tháng</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="dichvu-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <div id="phong" class="modal-detail">
+            <h3>Các loại dịch vụ tiện ích</h3>
+            <img src="pic\sua-chua-thiet-bi-phong-lab.jpg" alt="Room Image" />
+            <p>
+              Dịch vụ sửa chữa, bảo trì các thiết bị như vòi sen, cửa, đèn,
+              toilet, ống nước,...
+            </p>
+            <img src="pic\download.png" alt="Room Image" />
+            <p>Khách thuê ngắn hạn</p>
+          </div>
+        </div>
+      </div>
+
+      <section id="about-company">
+        <div class="flex container">
+          <img
+            src="pic\434051135_438048052015220_6499551755164846688_n.png"
+            alt="Logo image"
+          />
+          <div>
+            <h2>Khu trọ BCODE</h2>
+            <p class="large-paragraph">More than a place to stay</p>
+            <p>
+              Khu trọ BCODE là khu trọ cao cấp dành cho sinh viên và hộ gia
+              đình. Khu trọ có tích hợp ứng dụng quản lý nhà cho thuê
+            </p>
+            <ul>
+              <li>Giúp chủ nhà quản lý nhà, phòng cho thuê hiệu quả.</li>
+              <li>
+                Người thuê xem thông tin hóa đơn, hợp đồng, gửi yêu cầu trợ
+                giúp.
+              </li>
+              <li>Chủ nhà quản lý số lượng người thuê, gửi thông báo.</li>
+              <li>
+                Lợi ích cho cả người thuê và chủ nhà: quản lý thông tin, trao
+                đổi dễ dàng.
+              </li>
+            </ul>
+            <p>Điểm nổi bật</p>
+            <ul>
+              <li>Tích hợp nhiều tính năng quản lý.</li>
+              <li>Tiện lợi cho cả người chủ trọ và khách thuê.</li>
+              <li>Giải quyết vấn đề quản lý nhà cho thuê hiệu quả.</li>
+            </ul>
+            <button
+              class="rounded"
+              id="companyModalBtn"
+              onclick="window.location.href='https://github.com/NgocMinh29/rentalhouse_app/blob/master/README.md'"
+            >
+              Read more
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="testimonials">
+        <div class="container">
+          <h2>Khách thuê nói gì về khu trọ BCODE</h2>
+          <div id="testimonials-slider">
+            <div>
+              <blockquote>
+                <p>
+                  "Tôi không thể ngờ lại tìm được một căn phòng ưng ý như vậy.
+                  Các tiện ích và dịch vụ tại đây là trên cả tuyệt vời. Đặc biết
+                  là dịch vụ chăm sóc khách thuê tại đây rất tốt."
+                </p>
+                <div class="testimonials-caption">
+                  <img src="pic/client1.jpg" alt="" />
+                  <p>Izuku Midoriya</p>
+                </div>
+              </blockquote>
+            </div>
+            <div>
+              <blockquote>
+                <p>
+                  "Tôi và bạn trai của tôi đã quyết định ký hợp đồng 5 năm ở đây
+                  ngay khi chúng tôi vừa đặt chân thăm quan khu trọ. Mọi thứ còn
+                  vượt xa sự mong đợi của chúng tôi."
+                </p>
+                <div class="testimonials-caption">
+                  <img src="pic/client2.jpg" alt="" />
+                  <p>Shoto Todoroki</p>
+                </div>
+              </blockquote>
+            </div>
+            <div>
+              <blockquote>
+                <p>
+                  "Tôi phải nói là ứng dụng dành cho khách thuê tại khu trọ này
+                  thật tốt. Mọi thông tin đều được hiện rất rõ ràng và minh
+                  bạch."
+                </p>
+                <div class="testimonials-caption">
+                  <img src="pic/client3.jpg" alt="" />
+                  <p>Katsuki Bakugo</p>
+                </div>
+              </blockquote>
+            </div>
+            <div>
+              <blockquote>
+                <p>
+                  "Nhân viên và chủ trọ ở đây rất thân thiện. Khu vực quanh đây
+                  có an ninh vô cùng tốt."
+                </p>
+                <div class="testimonials-caption">
+                  <img src="pic/client4.png" alt="" />
+                  <p>Asui Tsuyu</p>
+                </div>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacts" class="container">
+        <h2>Liện hệ thông qua</h2>
+        <div class="flex centered">
+          <div>
+            <span class="fas fa-map-marker-alt"></span>
+            <h4>ADDRESS</h4>
+            <h5>Trường đại học Công nghệ Thông tin</h5>
+            <p>Đường Hàn Thuyên, khu phố 6 P, Thủ Đức, Thành phố Hồ Chí Minh</p>
+          </div>
+          <div>
+            <span class="fas fa-phone"></span>
+            <h4>PHONE</h4>
+            <h5>Chủ trọ</h5>
+            <p>654 789 45687</p>
+            <h5>Chuyên viên kỹ thuật</h5>
+            <p>654 789 77777</p>
+          </div>
+          <div>
+            <span class="fas fa-envelope"></span>
+            <h4>EMAIL</h4>
+            <h5>Chủ trọ</h5>
+            <p>info@BCODE.com</p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="flex container">
+          <div class="footer-about">
+            <h5>About BCODE</h5>
+            <p>
+              Hiện nay, việc tìm nhà hoặc phòng trọ gần trường đại học là thách
+              thức đối với sinh viên. Để giải quyết vấn đề này, chúng tôi muốn
+              xây dựng một hệ thống quản lý thuê phòng trực tuyến
+            </p>
+          </div>
+          <div class="footer-quick-links">
+            <h5>Quick Links</h5>
+            <ul>
+              <li><a href="#header-container">Trang chủ</a></li>
+              <li><a href="#services">Khu trọ</a></li>
+              <li><a href="#about-company">Giới thiệu</a></li>
+              <li><a href="#testimonials">Đánh giá</a></li>
+              <li><a href="#contacts">Liên hệ</a></li>
+            </ul>
+          </div>
+          <div class="footer-subscribe">
+            <h5>
+              Để lại thông tin liên lạc và chúng tôi sẽ liên hệ lại cho bạn
+            </h5>
+            <div id="subscribe-container">
+              <form
+                action="https://formsubmit.co/nguyentranphuc36@gmail.com"
+                method="POST"
+              >
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Email Address"
+                  required
+                />
+                <button type="submit" class="right-rounded">Send</button>
+              </form>
+            </div>
+            <h5 class="follow-us">Follow us</h5>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/minnntruong?_rdc=1&_rdr"
+                  ><span class="fab fa-facebook-f"></span
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/ngocmminhhh?igsh=MWJmNHk2cDF1YTB6Yw%3D%3D&utm_source=qr"
+                  ><span class="fab fa-instagram"></span
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/NgocMinh29/rentalhouse_app/tree/master"
+                  ><span class="fab fa-github"></span
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <small
+          ><a href="#header-container"
+            >Copyright &copy; 2024 BCODE. GV: NGUYỄN PHAN THỤY AN
+          </a></small
+        >
+      </footer>
+    </div>
+  </body>
+</html>
